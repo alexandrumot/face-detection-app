@@ -1,0 +1,35 @@
+button {
+	box-shadow:inset 0px -3px 7px 0px #0b4e7a;
+	background:linear-gradient(to bottom, #00b7ff 5%, #0666c6 100%);
+	background-color:#00b7ff;
+	border-radius:0px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	/* padding:9px 23px; */
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1d3c99;
+    outline:none;
+    background: rgb(6,102,198);
+    background: radial-gradient(circle, rgba(6,102,198,1) 14%, rgba(20,135,255,1) 67%, rgba(0,183,255,1) 100%);
+}
+button:hover {
+    outline: none;
+    background: rgb(0,183,255,1);
+	background: radial-gradient(circle,rgba(0,183,255,1) 100%, rgba(20,135,255,1) 67%, rgba(6,102,198,1) 14%);
+	/* background-color:#0666c6; */
+    
+}
+button:active {
+    outline: none;
+	position:relative;
+	/* top:1px; */
+    
+}
+
+.form {
+    width: 700px;
+}
